@@ -53,7 +53,7 @@ The purpose of this analysis is that the nonprofit foundation Alphabet Soup, wan
      - Model Performance
                The model achieved an accuracy of approximately 73.07% and a loss of 0.5548 on the test dataset. Changing the activation function imporoves the results slightly, but not able to achieve the target performance, which is above 75%.
 
-  + Fourth Model
+   + Fourth Model
      - Input Layer: The model has an input layer that corresponds to the number of features in the dataset, which is determined by num_input_features.
      - Hidden Layer 1: 10 neurons with a **leaky_relu** activation function
      - Hidden Layer 2: 20 neurons with a **leaky_relu** aactivation function
@@ -62,7 +62,13 @@ The purpose of this analysis is that the nonprofit foundation Alphabet Soup, wan
      - Model Performance
                The model achieved an accuracy of approximately 73.26% and a loss of 0.5507 on the test dataset. Changing the activation function imporoves the results slightly, but not able to achieve the target performance, which is above 75%.
 
-* Steps Taken to Increase Model Performance
-  
+ * Steps Taken to Increase Model Performance
+          In addition to changing the activation function and adding more hidden layers, we have also adjusted the number of epochs during training to enhance the model's learning capability. Furthermore, by explicitly setting the Adam optimizer, we gain the flexibility to easily modify the learning rate, allowing for more precise fine-tuning of the training process.
+
+
+## Summary
+
+The deep learning models evaluated achieved accuracies ranging from 72.94% to 73.26%, with none surpassing the target of 75%. To improve performance, I suggest trying ensemble methods like Random Forest or Gradient Boosting, as they combine multiple models for better accuracy. Also, improving features and fine-tuning settings could help boost performance.
+
 
     
